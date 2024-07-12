@@ -7,10 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        "white": "#ffffff",
+      colors: {
+        gray: {
+          100: '#f3f4f6', // Tailwind's default gray-100 color
+          800: '#1f2937', // Tailwind's default gray-800 color
+        },
       },
     },
   },
   plugins: [],
-};
+}
