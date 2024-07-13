@@ -3,10 +3,17 @@ import React from 'react'
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-purple-100 p-4">
-      <header className="text-3xl font-bold mb-4">Profile Page</header>
-      <p className="text-lg">Manage your account.</p>
-    </div>
+    <div className="flex flex-col min-h-screen bg-gray-300">
+    <header className="bg-gray-800 text-white p-4">
+      <h1 className="text-3xl font-bold">Profile Page</h1>
+    </header>
+    <main className="flex flex-col items-center justify-center flex-auto p-4">
+      <p className="text-lg">Manage your account</p>
+    </main>
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      <p></p>
+    </footer>
+  </div>
   )
 }
 
